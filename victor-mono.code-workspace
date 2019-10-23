@@ -1,0 +1,214 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    //"editor.fontFamily": "'IBM Plex Mono Medium','SF Mono Medium', 'Code New Roman','Courier New', monospace",
+    //"editor.fontFamily": "SF Mono",
+    "editor.fontFamily": "Victor Mono SemiBold",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    //"editor.fontWeight": "bold",
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.3,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    //"editor.cursorWidth": 5,
+    "editor.wordWrapColumn": 120,
+    "editor.renderLineHighlight": "gutter",
+    "editor.matchBrackets": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "Comment",
+          "scope": [
+            "comment",
+            "punctuation.definition.comment"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#7a7a7a"
+          }
+        },
+        {
+          "name": "Keyword, Storage",
+          "scope": [
+            "Keyword",
+            "Storage"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "Keyword Control",
+          "scope": [
+            "keyword.control"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#06c6db"
+          }
+        },
+        {
+          "name": "entity.name.method.js",
+          "scope": [
+            "entity.name.method.js"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#82AAFF"
+          }
+        },
+        {
+          "name": "Language methods",
+          "scope": [
+            "variable.language"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#FF5370"
+          }
+        },
+        {
+          "name": "HTML Attributes",
+          "scope": [
+            "text.html.basic entity.other.attribute-name.html",
+            "text.html.basic entity.other.attribute-name"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#FFCB6B"
+          }
+        },
+        {
+          "name": "Decorators",
+          "scope": [
+            "tag.decorator.js entity.name.tag.js",
+            "tag.decorator.js punctuation.definition.tag.js"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#82AAFF"
+          }
+        },
+        {
+          "name": "ES7 Bind Operator",
+          "scope": [
+            "source.js constant.other.object.key.js string.unquoted.label.js"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#FF5370"
+          }
+        },
+        {
+          "name": "Markup - Italic",
+          "scope": [
+            "markup.italic"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#f07178"
+          }
+        },
+        {
+          "name": "Markup - Bold-Italic",
+          "scope": [
+            "markup.bold markup.italic",
+            "markup.italic markup.bold",
+            "markup.quote markup.bold",
+            "markup.bold markup.italic string",
+            "markup.italic markup.bold string",
+            "markup.quote markup.bold string"
+          ],
+          "settings": {
+            "fontStyle": "bold",
+            //"foreground": "#f07178"
+          }
+        },
+        {
+          "name": "Markup - Quote",
+          "scope": [
+            "markup.quote"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": ""
+          }
+        },
+        {
+          "scope": "variable.other",
+          "settings": {
+            //"foreground": "#06c6db"
+          }
+        },
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            //"foreground": "#a8943c"
+          }
+        },
+        {
+          "scope": "support.function",
+          "settings": {
+            "fontStyle": "italic",
+            //"foreground": "#a8943c"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            //"foreground": "#CE9178"
+          }
+        }
+      ]
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    //"workbench.colorCustomizations": {
+    //    //"editorCursor.foreground": "#ff0000"
+    //    //    "terminal.background": "#1D2021",
+    //    "terminal.foreground": "#D5C4A1",
+    //    "terminalCursor.background": "#D5C4A1",
+    //    "terminalCursor.foreground": "#D5C4A1",
+    //    "terminal.ansiBlack": "#282828",
+    //    "terminal.ansiBlue": "#83A598",
+    //    "terminal.ansiBrightBlack": "#665C54",
+    //    "terminal.ansiBrightBlue": "#83A598",
+    //    "terminal.ansiBrightCyan": "#8EC07C",
+    //    "terminal.ansiBrightGreen": "#c9cc2b",
+    //    "terminal.ansiBrightMagenta": "#D3869B",
+    //    "terminal.ansiBrightRed": "#FB4934",
+    //    "terminal.ansiBrightWhite": "#FBF1C7",
+    //    "terminal.ansiBrightYellow": "#FABD2F",
+    //    "terminal.ansiCyan": "#8EC07C",
+    //    "terminal.ansiGreen": "#B8BB26",
+    //    "terminal.ansiMagenta": "#D3869B",
+    //    "terminal.ansiRed": "#FB4934",
+    //    "terminal.ansiWhite": "#D5C4A1",
+    //    "terminal.ansiYellow": "#FABD2F"
+    //},
+    "terminal.integrated.shell.windows": "c:\\Users\\Alex\\scoop\\apps\\git\\current\\bin\\bash.exe",
+    //"terminal.integrated.fontFamily": "SF Mono",
+    "terminal.integrated.fontFamily": "Victor Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.lineHeight": 1.0,
+    "terminal.integrated.rendererType": "auto",
+    "files.insertFinalNewline": true,
+    "explorer.decorations.badges": false,
+    "workbench.colorTheme": "Default Light+"
+  }
+}
